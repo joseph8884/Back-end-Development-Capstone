@@ -29,7 +29,7 @@ make db
 
 echo "Checking the Postgres Docker container..."
 docker ps
-
+pip install django
 echo "****************************************"
 echo " Capstone Environment Setup Complete"
 echo "****************************************"
